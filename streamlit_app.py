@@ -8,7 +8,7 @@ if uploaded_file is not None:
         #sep=r'\s(?=(?:[^"]*"[^"]*")*[^"]*$)(?![^\[]*\])',
         engine='python',
         na_values='-',
-        header=None)
+        header=0)
 
 
 st.markdown('### アクセスログ（先頭5件）')
